@@ -1,4 +1,4 @@
-vichan - A lightweight and full featured PHP imageboard. test
+vichan - A lightweight and full featured PHP imageboard.
 ========================================================
 
 **Vichan has next to no active development<!--, however you can still pay for support. Basic support costs $40/hr, and is only payable in BTC. New features depend on what you want. Email COPYPASTE &lt;AT&gt; KITTENS &lt;DOT&gt; PH if you're interested&mdash;Vichan forks such as OpenIB are included in this offer-->.**
