@@ -1,0 +1,443 @@
+body {
+    background: #f7f3e7;
+    color: black;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10pt;
+    margin: 0 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .hidden {
+    display:none;
+  }
+  
+  a,a:visited {
+    text-decoration: underline;
+    color: #34345C;
+  }
+  
+  a:hover,.intro a.post_no:hover {
+    color: #ff0000;
+  }
+  
+  a.post_no {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro a.post_no {
+    color: inherit;
+  }
+  
+  .intro a.post_no,p.intro a.email,p.intro a.post_anchor {
+    margin: 0;
+  }
+  
+  .intro a.email span.name {
+    color: #ffffff;
+  }
+  
+  .intro a.email:hover span.name {
+    color: #ff0000;
+  }
+  
+  .intro label {
+    display: inline;
+  }
+  
+  .intro time,p.intro a.ip-link,p.intro a.capcode {
+    direction: ltr;
+    unicode-bidi: embed;
+  }
+  
+  h2 {
+    color: #AF0A0F;
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    margin: 1em 0;
+  }
+  
+  h1 {
+    font-family: tahoma;
+    letter-spacing: -2px;
+    font-size: 20pt;
+    margin: 0;
+  }
+  /* board title */
+  header div.subtitle,h1 {
+    color: #adadad;
+    text-align: center;
+  }
+  
+  header div.subtitle {
+    font-size: 8pt;
+  }
+  
+  form {
+    margin-bottom: 4em;
+  }
+  
+  form table {
+    margin: auto;
+  }
+  
+  form table input {
+    height: auto;
+  }
+  
+  input[type="text"],input[type="password"],textarea {
+    border: 1px solid #a9a9a9;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    word-spacing: normal;
+    max-width: 100%;
+  }
+  
+  #quick-reply input[type="text"], input[type="password"], #quick-reply textarea {
+    max-width: 100%;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  form table tr td {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form table.mod tr td {
+    padding: 2px;
+  }
+  
+  form table tr th {
+    text-align: left;
+    padding: 4px;
+  }
+  /*Posting table (name, subject, etc)*/
+  form table tr th {
+    background: rgb(251, 255, 218);
+    border-width: 1px;
+    border-style: none solid solid none;
+    border-color: #0b6100;
+  }
+  
+  form table tr td div.center {
+    text-align: center;
+    float: left;
+    padding-left: 3px;
+  }
+  
+  form table tr td div input {
+    display: block;
+    margin: 2px auto 0 auto;
+  }
+  
+  form table tr td div label {
+    font-size: 10px;
+  }
+  
+  .unimportant,.unimportant * {
+    font-size: 10px;
+  }
+  
+  .file {
+    float: left;
+    margin-right: 2px;
+  }
+  
+  .file:not(.multifile) .post-image {
+    float: left;
+  }
+  
+  .file:not(.multifile) {
+    float: none;
+  }
+  
+  p.fileinfo {
+    display: block;
+    margin: 0 0 0 20px;
+  }
+  
+  div.post p.fileinfo {
+    padding-left: 5px;
+  }
+  
+  div.banner {
+    background-color: #E04000;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+  }
+  
+  div.banner,div.banner a {
+    color: white;
+  }
+  
+  div.banner a:hover {
+    color: #EEF2FF;
+    text-decoration: none;
+  }
+  
+  img.banner,img.board_image {
+    display: block;
+    border: 1px solid #a9a9a9;
+    margin: 12px auto 0 auto;
+  }
+  
+  .post-image {
+    display: block;
+    float: left;
+    margin: 5px 20px 10px 20px;
+    border: none;
+  }
+  
+  .full-image {
+    max-width: 98%;
+  }
+  
+  div.post .post-image {
+    padding: 5px;
+    margin: 0 20px 0 0;
+  }
+  
+  div.post img.icon {
+    display: inline;
+    margin: 0 5px;
+    padding: 0;
+  }
+  
+  div.post i.fa {
+    margin: 0 4px;
+    font-size: 16px;
+  }
+  
+  div.post.op {
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+  
+  div.post.op hr {
+    border-color: #D9BFB7;
+  }
+  
+  .intro {
+    margin: 0.5em 0;
+    padding: 0;
+    padding-bottom: 0.2em;
+  }
+  
+  input.delete {
+    float: left;
+    margin: 1px 6px 0 0;
+  }
+  
+  .intro span.subject {
+    color: #535353;
+    font-weight: bold;
+  }
+  
+  .intro span.name {
+    color: #a3a3a3;
+    font-weight: bold;
+  }
+  
+  .intro span.capcode,p.intro a.capcode,p.intro a.nametag {
+    color: #F00000;
+    margin-left: 0;
+  }
+  
+  .intro a {
+    margin-left: 8px;
+  }
+  
+  div.delete {
+    float: right;
+  }
+  
+  div.post.reply p {
+    margin: 0.3em 0 0 0;
+  }
+  
+  div.post.reply div.body {
+    margin-left: 1.8em;
+    margin-top: 0.8em;
+    padding-right: 3em;
+    padding-bottom: 0.3em;
+  }
+  
+  div.post.reply.highlighted {
+    background: #D6BAD0;
+  }
+  
+  div.post.reply div.body a {
+    color: #D00;
+  }
+  
+  div.post {
+    padding-left: 20px;
+  }
+  
+  div.post div.body {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  /*post box colors*/
+  div.post.reply {
+    background: #fbfce3;
+    margin: 0.2em 4px;
+    padding: 0.2em 0.3em 0.5em 0.6em;
+    border-width: 1px;
+    border-style: none solid solid none;
+    border-color: #0b6100;
+    display: inline-block;
+    max-width: 94%!important;
+  }
+  
+  span.trip {
+    color: #228854;
+  }
+  
+  span.quote {
+    color: #789922;
+  }
+  
+  span.omitted {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  br.clear {
+    clear: left;
+    display: block;
+  }
+  
+  span.controls {
+    float: right;
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+  }
+  
+  span.controls.op {
+    float: none;
+    margin-left: 10px;
+  }
+  
+  span.controls a {
+    margin: 0;
+  }
+  
+  div#wrap {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  div.ban {
+    background: white;
+    border: 1px solid #98E;
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  
+  div.ban p,div.ban h2 {
+    padding: 3px 7px;
+  }
+  
+  div.ban h2 {
+    background: #98E;
+    color: black;
+    font-size: 12pt;
+  }
+  
+  div.ban p {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  
+  div.ban p.reason {
+    font-weight: bold;
+  }
+  
+  span.heading {
+    color: #AF0A0F;
+    font-size: 11pt;
+    font-weight: bold;
+  }
+  
+  span.spoiler {
+    background: black;
+    color: black;
+    padding: 0 1px;
+  }
+  
+  div.post.reply div.body span.spoiler a {
+    color: black;
+  }
+  
+  span.spoiler:hover,div.post.reply div.body span.spoiler:hover a {
+    color: white;
+  }
+  
+  div.styles {
+    float: right;
+    padding-bottom: 20px;
+  }
+  
+  div.styles a {
+    margin: 0 10px;
+  }
+  
+  div.styles a.selected {
+    text-decoration: none;
+  }
+  
+  table.test {
+    width: 100%;
+  }
+  
+  table.test td,table.test th {
+    text-align: left;
+    padding: 5px;
+  }
+  
+  table.test tr.h th {
+    background: #98E;
+  }
+  
+  table.test td img {
+    margin: 0;
+  }
+  
+  fieldset label {
+    display: block;
+  }
+  
+  div.pages {
+      color: #89A;
+      background: #D6DAF0;
+      display: inline-block;
+      padding: 8px;
+      margin: 8px 0 4px 0;
+      border-right: 1px solid #B7C5D9;
+      border-bottom: 1px solid #B7C5D9;
+  }
+  
+  div.pages.top {
+    display: block;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0.9;
+  }
