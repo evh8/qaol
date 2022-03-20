@@ -1,6 +1,6 @@
 body {
     background: #f7f3e7;
-    color: black;
+    color: #5b5b5b;
     font-family: arial,helvetica,sans-serif;
     font-size: 10pt;
     margin: 0 4px;
@@ -14,7 +14,7 @@ body {
   
   a,a:visited {
     text-decoration: underline;
-    color: #34345C;
+    color: #9c9c9c;
   }
   
   a:hover,.intro a.post_no:hover {
@@ -64,8 +64,8 @@ body {
   }
   
   h1 {
-    font-family: tahoma;
-    letter-spacing: -2px;
+    font-family: Helvetica;
+    letter-spacing: ;
     font-size: 20pt;
     margin: 0;
   }
@@ -127,7 +127,7 @@ body {
     background: rgb(251, 255, 218);
     border-width: 1px;
     border-style: none solid solid none;
-    border-color: #0b6100;
+    border-color: #000000;
   }
   
   form table tr td div.center {
@@ -341,10 +341,11 @@ body {
     width: 900px;
     margin: 0 auto;
   }
-  
+    /* news posts*/
   div.ban {
-    background: white;
-    border: 1px solid #98E;
+    background: #fbfce3;
+    border: 1px solid #000000;
+    border-style: none solid solid none;
     max-width: 700px;
     margin: 30px auto;
   }
@@ -352,10 +353,10 @@ body {
   div.ban p,div.ban h2 {
     padding: 3px 7px;
   }
-  
+
   div.ban h2 {
-    background: #98E;
-    color: black;
+    background: #fbfce3;
+    color: #bfbfbf;
     font-size: 12pt;
   }
   
@@ -411,7 +412,7 @@ body {
   }
   
   table.test tr.h th {
-    background: #98E;
+    background: #a99bf1;
   }
   
   table.test td img {
@@ -1214,4 +1215,4 @@ body {
   div.mix {
       display: inline-block;
   }
-  
+
