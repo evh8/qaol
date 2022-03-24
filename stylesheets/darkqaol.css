@@ -1,7 +1,7 @@
 body {
     background: #111111;
   /*493a3a 37322d*/
-    color: #833333;
+    color: #915e5e;
     font-family: monospace;
     font-size: 10pt;
     margin: 0 4px;
@@ -435,13 +435,13 @@ input[type="submit"] {
   }
   /*pages*/
   div.pages {
-      color: #adadad;
-      background: rgb(251, 255, 218);
+      color: #833333;
+      background: #111111;
       display: inline-block;
       padding: 8px;
       margin: 8px 0 4px 0;
-      border-right: 1px solid #000000;
-      border-bottom: 1px solid #000000;
+      border: 1px solid #833333;
+     /* border-bottom: 1px solid #833333;*/
   }
   
   div.pages.top {
