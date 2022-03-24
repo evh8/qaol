@@ -7,6 +7,16 @@ body {
     padding-left: 4px;
     padding-right: 4px;
   }
+
+legend {
+    width: 100%;
+    margin-left: -15px;
+    background: #f7f3e7;
+    border: 1px solid #000000;
+    color: #484747;
+    font-weight: bold;
+    padding: 5px 5px;
+}
   
   .hidden {
     display:none;
