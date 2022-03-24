@@ -355,9 +355,9 @@ input[type="submit"] {
   }
   
   div.ban {
-    background: white;
-    border: 1px solid #98E;
-    max-width: 700px;
+    background: #111111;
+    border: 1px solid #833333;
+    max-width: 150px;
     margin: 30px auto;
   }
   
