@@ -1,18 +1,18 @@
-# static html and json
+!# static html and json
 /*/*.html
 /*/*.json
 /*/res
 /*/src
 /*/thumb
 /*/config.php
-/*.html
+!/*.html
 
 # include some files though
 !/templates/*.html
 !/inc/config.php
 
 # instance-config
-!/inc/instance-config.php
+/inc/instance-config.php
 
 # .installed
 /.installed
